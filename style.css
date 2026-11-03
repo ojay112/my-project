@@ -197,7 +197,7 @@ text-decoration-line: none;
 }
 
 .card-section .second-card {
-  background-image: url('../images/tain.png');
+  background-image: url('/images/tain.png');
     
   /* background-color: rgb(251, 210, 156);  */
  background-repeat: repeat;
