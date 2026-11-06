@@ -197,12 +197,10 @@ text-decoration-line: none;
 }
 
 .card-section .second-card {
-  background-image: url('https://res.cloudinary.com/pgdrlzgv/image/upload/v1793719048/tain.png');
-    
-  /* background-color: rgb(251, 210, 156);  */
- background-repeat: repeat;
+  background-image: url("https://res.cloudinary.com/pgdrlzgv/image/upload/v1793719048/tain.png");
+ /* background-repeat: repeat;
   background-position: top; 
- background-size: cover; 
+ background-size: cover;  */
 }
 
 .second-card {
@@ -632,7 +630,8 @@ color: gray;
 .fifth {
   position: absolute;
   margin-top: 3100px;
-  max-height: 200vh;
+  min-height: 200vh;
+  background-color: white;
 }
 
 .fifth-section {
@@ -1266,6 +1265,10 @@ width: 14px;
         padding: 30px;
     }
 
+    .fourth-top .intro {
+      margin-left: 90px;
+    }
+
     .fourth-top h4 {
         font-size: 32px;
     }
@@ -1279,13 +1282,22 @@ width: 14px;
         padding: 20px;
         min-width: 0;
         height: auto;
+        font-size: 8px;
     }
 
     .arrow {
-        width: 45px;
-        height: 45px;
-        font-size: 22px;
+        width: 35px;
+        height: 35px;
+        font-size: 20px;
     }
+
+    .arrow-one {
+    left: 33.333%;
+}
+
+.arrow-two {
+    left: 66.666%;
+} 
 
     .fourth-bottom {
         display: flex;
@@ -1337,9 +1349,10 @@ width: 14px;
 
 
     /* SIXTH SECTION */
+    
     .sixth {
         position: relative;
-        margin-top: 50px;
+        margin-top: -800px;
     }
 
     .sixth-top h2 {
@@ -1442,6 +1455,8 @@ width: 14px;
 @media screen and (max-width: 500px) {
 
     body > * {
+      max-width: 100%;
+      overflow-x: hidden;
     padding: 1rem 2rem;
   }
 
@@ -1553,7 +1568,7 @@ width: 14px;
         width: 100%;
         padding: 20px 15px;
         box-sizing: border-box;
-        margin-top: 800px;
+        margin-top: 0px;
     }
 
     /* Top section */
@@ -1622,7 +1637,7 @@ width: 14px;
     }
 
     .third {
-      margin-top: 1300px;
+      margin-top: 500px;
     }
 
     .third-side {
@@ -1648,7 +1663,7 @@ width: 14px;
 
 
 .fourth {
-  margin-top: 3670px;
+  margin-top: 2900px;
   display: flex;
   flex-direction: column;
 }
@@ -1724,7 +1739,7 @@ width: 14px;
 } 
 
 .fifth {
-  margin-top: 5100px;
+  margin-top: 4300px;
 }
 
 .fifth-section {
@@ -1732,9 +1747,10 @@ width: 14px;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-left: -300px;
-  width: 100%;
-  margin-top: 50px;
+  margin-left: 50px;
+  /* justify-content: center; */
+  /* width: 100%; */
+  /* margin-top: 50px; */
 }
 
 .fifth-section .intro {
@@ -1755,6 +1771,7 @@ margin-left: -70px;
 .fifth-bottom {
   display: flex;
   flex-direction: column;
+  margin-right: 100px;
 
 }
 
@@ -1764,9 +1781,10 @@ margin-left: -70px;
   width: 100%;
   max-width: 350px;
   height: auto;
+  margin-right: 50px;
 }
 .sixth {
-  margin-top: 6850px;
+  margin-top: 6000px;
   display: flex;
   flex-direction: column;
 }
@@ -1774,6 +1792,9 @@ margin-left: -70px;
 .sixth-top {
    display: flex;
   flex-direction: column;
+}
+.sixth-top .intro {
+margin-right: 35px;
 }
 
 .top-six {
@@ -1793,7 +1814,7 @@ margin-left: -70px;
   margin-bottom: 440px;
 }
 .seventh {
-  margin-top: 8650px;
+  margin-top: 7640px;
 }
 
 .seventh-top {
@@ -1810,7 +1831,7 @@ margin-left: -70px;
 }
 
 .eight {
-margin-top: 9470px;
+margin-top: 8470px;
 }
 
 .eight-section {
