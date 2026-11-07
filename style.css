@@ -1685,6 +1685,12 @@ width: 14px;
 .fourth-side {
   font-size: 15px;
 }
+.fourth-side .step {
+  font-size: 10px;
+}
+.fourth-side {
+  font-size: 15px;
+}
 
 .fourth-top h4 {
   font-size: 25px;
